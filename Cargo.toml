@@ -1,0 +1,14 @@
+[package]
+name = "LibLCUPM"
+version = "0.1.0"
+authors = ["Connor Horman <chorman64@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+curl = "0.4.25"
+openssl = {version = "0.10.26", features=["vendored"]}
+openssl-probe = "0.1.2"
+uriparse = "0.6.1"
+lazy_static = "1.4.0"
